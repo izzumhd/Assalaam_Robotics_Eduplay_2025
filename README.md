@@ -1,6 +1,6 @@
 
   # Assalaam Robotics Eduplay 2025 x Robot Research UMS
-  November 2nd, 2025  
+    
   <a href="https://ibb.co.com/Kj2XXzsV"><img src="https://i.ibb.co.com/Kj2XXzsV/pamflet1.jpg" alt="pamflet1" border="0"></a>
     
   ## Getting Started
@@ -47,6 +47,7 @@
   
   *October 30th, 2025*
   *izzumhdh*
+
 
 
 
