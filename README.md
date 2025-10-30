@@ -1,4 +1,5 @@
-  ﻿# Assalaam Robotics Eduplay 2025 x Robot Research UMS
+
+  # Assalaam Robotics Eduplay 2025 x Robot Research UMS
 
   ## Getting Started
   ### Set up the Arduino IDE
