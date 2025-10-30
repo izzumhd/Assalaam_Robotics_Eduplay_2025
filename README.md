@@ -39,7 +39,7 @@
   ## Library
   gaada, libraryne download dari arduino ide :)
   
-  ## Penjelasan file
+  ## About
   | Nama file | Keterangan |
   |:----------|:-----------|
   | Program_Utama | Program utama dasar dengan button sebagai kontrol utama |
