@@ -1,5 +1,6 @@
 
   # Assalaam Robotics Eduplay 2025 x Robot Research UMS
+  November 2nd, 2025
     
   ## Getting Started
   #### Set up the Arduino IDE
@@ -30,12 +31,12 @@
     
   *If there is a problem, ask to ur bro to fix it*
     
-  ### Petunjuk Memulai
+  ## Petunjuk Memulai
   #### Menyeting Arduino IDE
   1. arti'no dewe ah, males cok
 
   ## Library
-  gaada libraryne download dari arduino ide :)
+  gaada, libraryne download dari arduino ide :)
   
   ## Penjelasan file
   | Nama file | Keterangan |
@@ -45,5 +46,6 @@
   
   *October 30th, 2025*
   *izzumhdh*
+
 
 
