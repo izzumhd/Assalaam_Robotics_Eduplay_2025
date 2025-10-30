@@ -10,10 +10,10 @@
   3. There are some subfolders there, open one of these and open the `.ino` file.
   4. From Arduino IDE, open the tab file then preferences
   5. Scroll down until found `Additional board manager URLs`
-  6. Add new line with `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+  6. Write new line with `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
   7. Back to workspace, open the Boards Manager in the left side
   8. Search `esp32` by `Espressif` and download the latest version
-  9. Open tab `Tools` above, Choose boards menu > esp32 > ESP32C3 Dev Module (if it doesn't exist, repeat to step 7)
+  9. Open tab `Tools` above, Choose Boards > esp32 > ESP32C3 Dev Module (if it doesn't exist, repeat to step 7)
 
   #### Coding
   10. Get the `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `AUTH_TOKEN` from [blynk Website](https://www.blynk.io/)
