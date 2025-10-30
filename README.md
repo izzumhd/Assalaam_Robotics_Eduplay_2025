@@ -1,6 +1,7 @@
 
   # Assalaam Robotics Eduplay 2025 x Robot Research UMS
   November 2nd, 2025
+  ![Gambar Pamflet](https://ibb.co.com/Kj2XXzsV)
     
   ## Getting Started
   #### Set up the Arduino IDE
@@ -46,6 +47,7 @@
   
   *October 30th, 2025*
   *izzumhdh*
+
 
 
 
