@@ -37,7 +37,7 @@
   1. arti'no dewe ah, males cok
 
   ## Library
-  library blynk download dari arduino ide :)
+  library blynk download dari arduino ide :)  
   atau jika ingin [install manual disini](https://github.com/blynkkk/blynk-library/releases/tag/v1.3.2)
   
   ## About
@@ -50,6 +50,7 @@
         
   *October 30th, 2025*  
   *izzumhdh*
+
 
 
 
