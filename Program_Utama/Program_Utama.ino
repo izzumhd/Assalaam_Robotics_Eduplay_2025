@@ -1,6 +1,7 @@
 #define BLYNK_TEMPLATE_ID "Masukkan TEMPLATE ID disini"
 #define BLYNK_TEMPLATE_NAME "Masukkan TEMPLATE NAME disini"
 #define AUTH_TOKEN "Masukkan AUTH TOKEN disini"
+
 #define NAMA_WIFI "Masukkan Nama Wifi Disini"
 #define PASSWORD "Masukkan Password Wifi Disini"
 
