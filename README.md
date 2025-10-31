@@ -10,14 +10,14 @@
   3. There are some subfolders there, open one of these and open the `.ino` file.
   4. From Arduino IDE, open the tab file then preferences
   5. Scroll down until found `Additional board manager URLs`
-  6. Write new line with `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
-  7. Back to workspace, open the Boards Manager in the left side
-  8. Search `esp32` by `Espressif` and download the latest version
+  6. Write down a new line with `https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json`
+  7. Go Back to workspace, open the Boards Manager on the left side
+  8. Search for `esp32` by `Espressif` and download the latest version
   9. Open tab `Tools` above, Choose Boards > esp32 > ESP32C3 Dev Module (if it doesn't exist, repeat to step 7)
 
   #### Coding
   10. Get the `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `AUTH_TOKEN` from [blynk Website](https://www.blynk.io/)
-  11. Paste the text on the website one by one in inside quotation marks, example `"Masukkan TEMPLATE ID disini"`
+  11. Paste the text from the website in inside quotation marks such as `"Masukkan TEMPLATE ID disini"`, repeat for the rest
   12. Get the `NAMA_WIFI` and `PASSWORD` from your mobile hotspot
   13. Paste in inside quotation marks
   14. Click the compile button on the top left Arduino IDE
@@ -25,10 +25,10 @@
   
   #### Uploading
   16. Connect the laptop to the ESP using a type C cable
-  17. Go to tab `Tools` then `Port`, Choose the existing one(it depends on your laptop, generally it says COMx(ESP32 Family Device))
+  17. Go to tab `Tools` then `Port`, Choose the existing COM (it depends on your laptop, generally it says COMx(ESP32 Family Device))
   18. Click the Upload button
-  19. Wait for the Uploading to be done
-  20. All's good, Your robot ready to duty
+  19. Wait for the Upload to be done
+  20. All's good, Your robot is on duty
     
   *If there is a problem, ask to ur bro to fix it*
     
@@ -49,6 +49,7 @@
         
   *October 30th, 2025*  
   *izzumhdh*
+
 
 
 
