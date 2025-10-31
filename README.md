@@ -5,7 +5,7 @@
     
   ## Getting Started
   #### Set up the Arduino IDE
-  1. Download the main zip file.
+  1. Download the main zip file(Links below).
   2. Extract the `Assalaam_Robotics_Eduplay_2025-main.zip` and open the folder.
   3. There are some subfolders there, open one of these and open the `.ino` file.
   4. From Arduino IDE, open the tab file then preferences
@@ -54,9 +54,9 @@
   | `Program_Utama` | Program utama dasar dengan button sebagai kontrol utama |
   | `Program_Joystick` | Program dengan joystick sebagai kontrol utama(optional) |
 
-     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   *October 30th, 2025*  
   *izzumhdh*
+
 
 
 
