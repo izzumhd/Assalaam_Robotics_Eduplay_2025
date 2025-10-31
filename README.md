@@ -41,8 +41,8 @@
   1. arti'no dewe ah, males cok
 
   ## Download Release(s)
-  [Program_Utama.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.0/Program_Utama.zip)
-  [Program_Joystick.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.0/Program_Joystick.zip)
+  1. [Program_Utama.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.0/Program_Utama.zip)  
+  2. [Program_Joystick.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.0/Program_Joystick.zip)
   
   ## Library
   library blynk download dari arduino ide :)  
@@ -57,6 +57,7 @@
      https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   *October 30th, 2025*  
   *izzumhdh*
+
 
 
 
