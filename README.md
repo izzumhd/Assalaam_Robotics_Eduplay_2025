@@ -11,7 +11,7 @@
   4. From Arduino IDE, open the tab file then preferences
   5. Scroll down until found `Additional board manager URLs`
   6. Write down a new line with:
-  #####
+
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   7. Go Back to workspace, open the Boards Manager on the left side
   8. Search for `esp32` by `Espressif` and download the latest version
@@ -53,4 +53,5 @@
      https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   *October 30th, 2025*  
   *izzumhdh*
+
 
