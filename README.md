@@ -41,15 +41,16 @@
   atau jika ingin [install manual disini](https://github.com/blynkkk/blynk-library/releases/tag/v1.3.2)
   
   ## About
-  | Nama file | Keterangan |
+  | **Nama file** | **Keterangan** |
   |:----------|:-----------|
-  | Program_Utama | Program utama dasar dengan button sebagai kontrol utama |
-  | Program_Joystick | Program dengan joystick sebagai kontrol utama(experimental) |
+  | `Program_Utama` | Program utama dasar dengan button sebagai kontrol utama |
+  | `Program_Joystick` | Program dengan joystick sebagai kontrol utama(optional) |
 
 
-        
+    .  
   *October 30th, 2025*  
   *izzumhdh*
+
 
 
 
