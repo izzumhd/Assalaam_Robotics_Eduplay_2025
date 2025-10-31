@@ -1,7 +1,7 @@
 #define BLYNK_TEMPLATE_ID "Masukkan TEMPLATE ID disini"
 #define BLYNK_TEMPLATE_NAME "Masukkan TEMPLATE NAME disini"
-#define AUTH_TOKEN "Masukkan AUTH TOKEN disini"
 
+#define AUTH_TOKEN "Paste AUTH TOKEN disini"
 #define NAMA_WIFI "Masukkan Nama Wifi Disini"
 #define PASSWORD "Masukkan Password Wifi Disini"
 
@@ -9,12 +9,12 @@
 #include <BlynkSimpleEsp32.h>
 #include <Wire.h>
 
-#define ENA 5
-#define IN1 6
-#define IN2 7
-#define IN3 8
-#define IN4 9
-#define ENB 10
+#define ENA 1
+#define IN1 2
+#define IN2 3
+#define IN3 4
+#define IN4 5
+#define ENB 6
 
 int a, b, c, d;
 int Speed = 255;

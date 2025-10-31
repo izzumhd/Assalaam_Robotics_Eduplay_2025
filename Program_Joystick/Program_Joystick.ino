@@ -1,19 +1,19 @@
 #define BLYNK_TEMPLATE_ID "Masukkan TEMPLATE ID disini"
 #define BLYNK_TEMPLATE_NAME "Masukkan TEMPLATE NAME disini"
-#define BLYNK_AUTH_TOKEN "Masukkan AUTH TOKEN disini"
 
-#define WIFI_SSID "Masukkan Nama Wifi Disini"
-#define WIFI_PASS "Masukkan Password Wifi Disini"
+#define AUTH_TOKEN "Paste AUTH TOKEN disini"
+#define NAMA_WIFI "Masukkan Nama Wifi Disini"
+#define PASSWORD "Masukkan Password Wifi Disini"
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
-const int enA = 25;
-const int in1 = 26;
-const int in2 = 27;
-const int enB = 14;
-const int in3 = 12;
-const int in4 = 13;
+const int enA = 1;
+const int in1 = 2;
+const int in2 = 3;
+const int enB = 4;
+const int in3 = 5;
+const int in4 = 6;
 
 int x = 0, y = 0;
 
@@ -37,7 +37,7 @@ void motor(int A, int B) {
 
 void setup() {
   Serial.begin(115200);
-  Blynk.begin(BLYNK_AUTH_TOKEN, WIFI_SSID, WIFI_PASS);
+  Blynk.begin(AUTH_TOKEN, NAMA_WIFI, PASSWORD);
 
   for (int p : {in1, in2, in3, in4, enA, enB}) pinMode(p, OUTPUT);
 
