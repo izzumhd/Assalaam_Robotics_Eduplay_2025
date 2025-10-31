@@ -40,6 +40,10 @@
   #### Menyeting Arduino IDE
   1. arti'no dewe ah, males cok
 
+  ## Release
+  link1
+  link2
+  
   ## Library
   library blynk download dari arduino ide :)  
   atau jika ingin [install manual disini](https://github.com/blynkkk/blynk-library/releases/tag/v1.3.2)
@@ -53,5 +57,6 @@
      https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   *October 30th, 2025*  
   *izzumhdh*
+
 
 
