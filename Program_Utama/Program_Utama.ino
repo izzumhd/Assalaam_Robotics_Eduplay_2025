@@ -9,12 +9,12 @@
 #include <BlynkSimpleEsp32.h>
 #include <Wire.h>
 
-#define ENA 1
+#define ENA 3
 #define IN1 2
-#define IN2 3
-#define IN3 4
-#define IN4 5
-#define ENB 6
+#define IN2 1
+#define IN3 6
+#define IN4 4
+#define ENB 5
 
 int a, b, c, d;
 int Speed = 255;
