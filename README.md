@@ -61,13 +61,13 @@
 
 ## Petunjuk untuk Memulai (Bahasa Indonesia)
 
-### 🧩 Unduh Arduino IDE
-- 📥 Unduh **Arduino IDE** dari [👉 Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
+### Unduh Arduino IDE
+- 📥 Unduh **Arduino IDE** dari [Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
 - ⚙️ Jalankan file `.exe` untuk menginstalnya di laptop kamu
 
 ---
 
-### 🛠️ Siapkan Arduino IDE
+### Siapkan Arduino IDE
 1. 📦 **Unduh file utama ZIP** (tautan tersedia di bawah).  
 2. 🗂️ Ekstrak file `Program_Utama.zip`(atau `Program_Joystick.zip` jika kamu pakai itu) lalu buka foldernya.  
 3. 📁 Di dalamnya ada subfolder, buka folder tersebut dan buka file `.ino` menggunakan Arduino IDE.  
@@ -85,7 +85,7 @@
 
 ---
 
-### 💻 Penulisan Kode
+### Penulisan Kode Program
 10. 🌐 Dapatkan `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, dan `AUTH_TOKEN` dari [Situs Blynk](https://www.blynk.io/).  
 11. ✏️ Ganti dua baris pertama kode dengan template ID dan nama kamu:  
 
@@ -117,7 +117,7 @@
 
 ---
 
-### ⬆️ Mengunggah ke ESP32
+### Mengunggah Program ke ESP32
 16. 🔌 Hubungkan laptop ke **ESP32-C3** pakai kabel **Type-C**.  
 17. ⚙️ Buka **Tools > Port**, lalu pilih port COM yang sesuai  
     *(biasanya tertulis seperti: `COMx (ESP32 Family Device)`)*  
@@ -158,11 +158,3 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
-
-
-
-
-
-
-
-
