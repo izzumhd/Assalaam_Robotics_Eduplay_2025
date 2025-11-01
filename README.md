@@ -59,6 +59,8 @@
     
   *If there is a problem, ask to ur bro to fix it*
 
+---
+
 ## Petunjuk untuk Memulai (Bahasa Indonesia)
 
 ### Unduh Arduino IDE
@@ -158,3 +160,4 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
