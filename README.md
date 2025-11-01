@@ -64,64 +64,64 @@
 ## Petunjuk untuk Memulai (Bahasa Indonesia)
 
 > ### Unduh Arduino IDE
-- 📥 Unduh **Arduino IDE** dari [Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
-- ⚙️ Jalankan file `.exe` untuk menginstalnya di laptop kamu
+- Unduh **Arduino IDE** dari [Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
+- Jalankan file `.exe` untuk menginstalnya di laptop kamu
 
 > ### Siapkan Arduino IDE
-1. 📦 **Unduh file utama ZIP** (tautan tersedia di bawah).  
-2. 🗂️ Ekstrak file `Program_Utama.zip`(atau `Program_Joystick.zip` jika kamu pakai itu) lalu buka foldernya.  
-3. 📁 Di dalamnya ada subfolder, buka folder tersebut dan buka file `.ino` menggunakan Arduino IDE.  
-4. ⚙️ Dari Arduino IDE, buka **File > Preferences (Preferensi)**.  
-5. 🔽 Gulir ke bawah sampai menemukan bagian `Additional Board Manager URLs`.  
-6. 📝 Tambahkan baris baru berisi:
+1. **Unduh file utama ZIP** (tautan tersedia di bawah).  
+2. Ekstrak file `Program_Utama.zip`(atau `Program_Joystick.zip` jika kamu pakai itu) lalu buka foldernya.  
+3. Di dalamnya ada subfolder, buka folder tersebut dan buka file `.ino` menggunakan Arduino IDE.  
+4. Dari Arduino IDE, buka **File > Preferences (Preferensi)**.  
+5. Gulir ke bawah sampai menemukan bagian `Additional Board Manager URLs`.  
+6. Tambahkan baris baru berisi:
 
     ```
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
     ```
-7. 🧭 Kembali ke workspace, buka **Boards Manager** di sisi kiri.  
-8. 🔍 Cari `esp32` dari **Espressif** dan unduh versi terbaru.  
-9. 🧩 Buka **Tools > Board**, pilih **esp32 > ESP32C3 Dev Module**  
+7. Kembali ke workspace, buka **Boards Manager** di sisi kiri.  
+8. Cari `esp32` dari **Espressif** dan unduh versi terbaru.  
+9. Buka **Tools > Board**, pilih **esp32 > ESP32C3 Dev Module**  
    (kalau belum muncul, ulangi langkah 4–6).
 
 > ### Penulisan Kode Program
-10. 🌐 Dapatkan `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, dan `AUTH_TOKEN` dari [Situs Blynk](https://www.blynk.io/).  
-11. ✏️ Ganti dua baris pertama kode dengan template ID dan nama kamu:  
+10. Dapatkan `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, dan `AUTH_TOKEN` dari [Situs Blynk](https://www.blynk.io/).  
+11. Ganti dua baris pertama kode dengan template ID dan nama kamu:  
 
     ```cpp
     #define BLYNK_TEMPLATE_ID "Masukkan TEMPLATE ID disini"
     #define BLYNK_TEMPLATE_NAME "Masukkan TEMPLATE NAME disini"
     ```
-    💡 Setelah diubah nanti akan terlihat seperti ini:
+    Setelah diubah nanti akan terlihat seperti ini:
     ```cpp
     #define BLYNK_TEMPLATE_ID "TMPL6EC4r43si"
     #define BLYNK_TEMPLATE_NAME "AssalaamRobot"
     ```
 
-12. 🔑 Ganti bagian `AUTH_TOKEN`:
+12. Ganti bagian `AUTH_TOKEN`:
     ```cpp
     #define AUTH_TOKEN "Paste AUTH TOKEN disini"
     ```
     → ubah `"Paste AUTH TOKEN disini"` jadi token kamu dari **Blynk > Devices**  
 
-13. 📶 Masukkan nama dan kata sandi WiFi:
+13. Masukkan nama dan kata sandi WiFi:
     ```cpp
     #define NAMA_WIFI "Masukkan NAMA WIFI disini"
     #define PASSWORD "Masukkan PASSWORD disini"
     ```
-    💬 Gunakan hotspot HP kamu — tenang, nggak bakal ngambil kuota.  
+    Gunakan hotspot HP kamu — tenang, nggak bakal ngambil kuota.  
 
-14. 🧠 Klik tombol **✅ Compile** di kiri atas Arduino IDE.  
-15. ✅ Kalau tidak ada pesan error, lanjut ke langkah berikutnya!
+14. Klik tombol **✅ Compile** di kiri atas Arduino IDE.  
+15. Apabila sudah tidak ada pesan error, lanjut ke langkah berikutnya!
 
 > ### Mengunggah Program ke ESP32
-16. 🔌 Hubungkan laptop ke **ESP32-C3** menggunakan kabel **Type-C**.  
-17. ⚙️ Buka **Tools > Port**, lalu pilih port COM yang sesuai  
+16. Hubungkan laptop ke **ESP32-C3** menggunakan kabel **Type-C**.  
+17. Buka **Tools > Port**, lalu pilih port COM yang sesuai  
     *(biasanya tertulis seperti: `COMx (ESP32 Family Device)`)*  
-18. ⏫ Klik tombol **Upload (⭱)**.  
-19. ⏳ Tunggu proses upload selesai.  
-20. ⚠️ Kalau gagal upload, ulangi langkah ke 9 dan ubah board ke  
+18. Klik tombol **Upload (⭱)**.  
+19. Tunggu proses upload selesai.  
+20. Kalau gagal upload, ulangi langkah ke 9 dan ubah board ke  
     **Adafruit QT Py ESP32-C3**.  
-21. 🎉 Selesai! Robot kamu siap bertugas 💪🤖
+21. Selesai! Robot kamu siap bertugas 💪🤖
 
 *jika terdapat pesan error atau ada kebingungan, silahkan bertanya ke kakak-kakak yang bertugas ;)*
 
@@ -134,13 +134,12 @@
 
 ---
 
-✨ *Dibuat dengan ❤️ oleh team Assalaam Robotics Eduplay 2025*
+✨ *Dibuat oleh team Assalaam Robotics Eduplay 2025*
 
 
   ## Download Release(s)
   * [Program_Utama.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Program_Utama.zip)  
   * [Program_Joystick.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Program_Joystick.zip)
-  * Modul Pembelajaran (pdf)
   
   ## Library
   library blynk download dari arduino ide :)  
@@ -154,5 +153,6 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
