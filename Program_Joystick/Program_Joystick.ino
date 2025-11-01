@@ -8,12 +8,12 @@
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
-const int enA = 1;
+const int enA = 3;
 const int in1 = 2;
-const int in2 = 3;
-const int enB = 4;
-const int in3 = 5;
-const int in4 = 6;
+const int in2 = 1;
+const int enB = 6;
+const int in3 = 4;
+const int in4 = 5;
 
 int x = 0, y = 0;
 
