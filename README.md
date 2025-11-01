@@ -19,7 +19,7 @@
     https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   7. Go Back to workspace, open the Boards Manager on the left side
   8. Search for `esp32` by `Espressif` and download the latest version
-  9. Open tab `Tools` above, Choose Boards > esp32 > ESP32C3 Dev Module (if it doesn't exist, repeat to step 7)
+  9. Open tab `Tools`, Choose **Boards** > **esp32** > **ESP32C3 Dev Module** (if it doesn't exist, Go back to step 4)
 
   #### Coding
   10. Get the `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `AUTH_TOKEN` from [blynk Website](https://www.blynk.io/)
@@ -54,7 +54,8 @@
   17. Go to tab `Tools` then `Port`, Choose the existing COM (it depends on your laptop, generally it says COMx(ESP32 Family Device))
   18. Click the Upload button
   19. Wait for the Upload to be done
-  20. All's good, Your robot is on duty
+  20. if it can't be uploaded, go back to step 9, change the board `ESP32C3 Dev Module` to `Adafruit QT Py ESP32-C3`
+  21. All's good, Your robot is on duty
     
   *If there is a problem, ask to ur bro to fix it*
 
@@ -79,6 +80,7 @@
 
   *October 30th, 2025*  
   *izzumhdh*
+
 
 
 
