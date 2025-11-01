@@ -4,11 +4,11 @@
   <a href="https://ibb.co.com/Kj2XXzsV"><img src="https://i.ibb.co.com/Kj2XXzsV/pamflet1.jpg" alt="pamflet1" border="0"></a>
     
   ## Getting Started (English)
-  #### Download the Arduino IDE
+  > ### Download the Arduino IDE
   * Download the Arduino IDE from [ Arduino Website](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)
   * Run the .exe file to install it
 
-  #### Set up the Arduino IDE
+  > ### Set up the Arduino IDE
   1. Download the main zip file(Links below).
   2. Extract the `Program_Utama.zip`(or `Program_Joystick.zip` if you used that) and open the folder.
   3. There are subfolders there, open one of these and open the `.ino` file.
@@ -21,7 +21,7 @@
   8. Search for `esp32` by `Espressif` and download the latest version
   9. Open tab `Tools`, Choose **Boards** > **esp32** > **ESP32C3 Dev Module** (if it doesn't exist, Go back to step 4)
 
-  #### Coding
+  > ### Coding
   10. Get the `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, and `AUTH_TOKEN` from [blynk Website](https://www.blynk.io/)
   11. Change the first and second lines of code to your template id and name,  
   * Change this two lines:   
@@ -49,7 +49,7 @@
   14. Click the compile button on the top left Arduino IDE
   15. If there are no existing errors messages, then continue to the uploading section
   
-  #### Uploading
+  > ### Uploading
   16. Connect the laptop to ESP32 C3 using a type C cable
   17. Go to tab `Tools` then `Port`, Choose the existing COM (it depends on your laptop, generally it says COMx(ESP32 Family Device))
   18. Click the Upload button
@@ -63,13 +63,11 @@
 
 ## Petunjuk untuk Memulai (Bahasa Indonesia)
 
-### Unduh Arduino IDE
+> ### Unduh Arduino IDE
 - 📥 Unduh **Arduino IDE** dari [Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
 - ⚙️ Jalankan file `.exe` untuk menginstalnya di laptop kamu
 
----
-
-### Siapkan Arduino IDE
+> ### Siapkan Arduino IDE
 1. 📦 **Unduh file utama ZIP** (tautan tersedia di bawah).  
 2. 🗂️ Ekstrak file `Program_Utama.zip`(atau `Program_Joystick.zip` jika kamu pakai itu) lalu buka foldernya.  
 3. 📁 Di dalamnya ada subfolder, buka folder tersebut dan buka file `.ino` menggunakan Arduino IDE.  
@@ -85,9 +83,7 @@
 9. 🧩 Buka **Tools > Board**, pilih **esp32 > ESP32C3 Dev Module**  
    (kalau belum muncul, ulangi langkah 4–6).
 
----
-
-### Penulisan Kode Program
+> ### Penulisan Kode Program
 10. 🌐 Dapatkan `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, dan `AUTH_TOKEN` dari [Situs Blynk](https://www.blynk.io/).  
 11. ✏️ Ganti dua baris pertama kode dengan template ID dan nama kamu:  
 
@@ -117,10 +113,8 @@
 14. 🧠 Klik tombol **✅ Compile** di kiri atas Arduino IDE.  
 15. ✅ Kalau tidak ada pesan error, lanjut ke langkah berikutnya!
 
----
-
-### Mengunggah Program ke ESP32
-16. 🔌 Hubungkan laptop ke **ESP32-C3** pakai kabel **Type-C**.  
+> ### Mengunggah Program ke ESP32
+16. 🔌 Hubungkan laptop ke **ESP32-C3** menggunakan kabel **Type-C**.  
 17. ⚙️ Buka **Tools > Port**, lalu pilih port COM yang sesuai  
     *(biasanya tertulis seperti: `COMx (ESP32 Family Device)`)*  
 18. ⏫ Klik tombol **Upload (⭱)**.  
@@ -129,11 +123,11 @@
     **Adafruit QT Py ESP32-C3**.  
 21. 🎉 Selesai! Robot kamu siap bertugas 💪🤖
 
-*jika terdapat pesan error atau ada kebingungan, silahkan tanya kakak-kakak yang bertugas*
+*jika terdapat pesan error atau ada kebingungan, silahkan bertanya ke kakak-kakak yang bertugas ;)*
 
 ---
 
-🧾 **Catatan Tambahan:**
+> 🧾 **Catatan Tambahan:**
 - Pastikan koneksi internet stabil saat pertama kali download **Board Espressif**.  
 - Kalau error `Permission denied` muncul di Windows, jalankan Arduino IDE sebagai **Administrator**.  
 - Simpan semua file `.ino` dalam satu folder yang sama.  
@@ -160,4 +154,5 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
