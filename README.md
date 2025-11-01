@@ -10,8 +10,8 @@
 
   #### Set up the Arduino IDE
   1. Download the main zip file(Links below).
-  2. Extract the `Assalaam_Robotics_Eduplay_2025-main.zip` and open the folder.
-  3. There are some subfolders there, open one of these and open the `.ino` file.
+  2. Extract the `Program_Utama.zip`(or `Program_Joystick.zip` if you used that) and open the folder.
+  3. There are subfolders there, open one of these and open the `.ino` file.
   4. From Arduino IDE, open the tab file then preferences
   5. Scroll down until found `Additional board manager URLs`
   6. Write down a new line with:
@@ -69,8 +69,8 @@
 
 ### 🛠️ Siapkan Arduino IDE
 1. 📦 **Unduh file utama ZIP** (tautan tersedia di bawah).  
-2. 🗂️ Ekstrak file `Assalaam_Robotics_Eduplay_2025-main.zip` lalu buka foldernya.  
-3. 📁 Di dalamnya ada beberapa subfolder, pilih salah satu dan buka file `.ino`.  
+2. 🗂️ Ekstrak file `Program_Utama.zip`(atau `Program_Joystick.zip` jika kamu pakai itu) lalu buka foldernya.  
+3. 📁 Di dalamnya ada subfolder, buka folder tersebut dan buka file `.ino` menggunakan Arduino IDE.  
 4. ⚙️ Dari Arduino IDE, buka **File > Preferences (Preferensi)**.  
 5. 🔽 Gulir ke bawah sampai menemukan bagian `Additional Board Manager URLs`.  
 6. 📝 Tambahkan baris baru berisi:
@@ -158,6 +158,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
