@@ -140,6 +140,7 @@
   ## Download Release(s)
   * [Program_Utama.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Program_Utama.zip)  
   * [Program_Joystick.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Program_Joystick.zip)
+  * [Modul Pembelajaran (pdf)](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Modul_RobotSoccer.pdf)
   
   ## Library
   library blynk download dari arduino ide :)  
@@ -153,6 +154,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
