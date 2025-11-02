@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 292f2200a86c3b9ef5604e33f9af77fb2c473961
   # Assalaam Robotics Eduplay 2025 x Robot Research UMS
     
   <a href="https://ibb.co.com/Kj2XXzsV"><img src="https://i.ibb.co.com/Kj2XXzsV/pamflet1.jpg" alt="pamflet1" border="0"></a>
@@ -156,6 +153,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
