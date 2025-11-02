@@ -7,7 +7,6 @@
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
-#include <Wire.h>
 
 #define ENA 3
 #define IN1 2
@@ -17,8 +16,9 @@
 #define ENB 5
 
 int a, b, c, d;
-int Speed = 255;
-int Speed2 = 150;
+int SpeedA = 255;
+int SpeedB = 200;
+int Speed2 = 200;
 
 char auth[] = AUTH_TOKEN;
 char ssid[] = NAMA_WIFI;
@@ -38,16 +38,16 @@ void setup() {
   Serial.println("Terhubung ke BLYNK");
 }
 
-BLYNK_WRITE(V0) {
+BLYNK_WRITE(V2) {
   a = param.asInt();
 }
-BLYNK_WRITE(V1) {
+BLYNK_WRITE(V3) {
   b = param.asInt();
 }
-BLYNK_WRITE(V2) {
+BLYNK_WRITE(V4) {
   c = param.asInt();
 }
-BLYNK_WRITE(V3) {
+BLYNK_WRITE(V5) {
   d = param.asInt();
 }
 
@@ -67,8 +67,8 @@ void soccercar() {
 }
 
 void jalanMaju() {
-  analogWrite(ENA, Speed);
-  analogWrite(ENB, Speed);
+  analogWrite(ENA, SpeedA);
+  analogWrite(ENB, SpeedB);
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, HIGH);
@@ -77,8 +77,8 @@ void jalanMaju() {
 }
 
 void jalanMundur() {
-  analogWrite(ENA, Speed);
-  analogWrite(ENB, Speed);
+  analogWrite(ENA, SpeedA);
+  analogWrite(ENB, SpeedB);
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
   digitalWrite(IN3, LOW);
@@ -86,29 +86,29 @@ void jalanMundur() {
   Serial.println("MUNDUR");
 }
 
-void belokKiri() {
-  analogWrite(ENA, Speed);
-  analogWrite(ENB, Speed);
-  digitalWrite(IN1, LOW);
-  digitalWrite(IN2, HIGH);
-  digitalWrite(IN3, HIGH);
+void belokKanan() {
+  analogWrite(ENA, Speed2);
+  analogWrite(ENB, 0);
+  digitalWrite(IN1, HIGH);
+  digitalWrite(IN2, LOW);
+  digitalWrite(IN3, LOW);
   digitalWrite(IN4, LOW);
   Serial.println("KIRI");
 }
 
-void belokKanan() {
-  analogWrite(ENA, Speed);
-  analogWrite(ENB, Speed);
-  digitalWrite(IN1, HIGH);
+void belokKiri() {
+  analogWrite(ENA, 0);
+  analogWrite(ENB, Speed2);
+  digitalWrite(IN1, LOW);
   digitalWrite(IN2, LOW);
-  digitalWrite(IN3, LOW);
-  digitalWrite(IN4, HIGH);
+  digitalWrite(IN3, HIGH);
+  digitalWrite(IN4, LOW);
   Serial.println("KANAN");
 }
 
 void serongKiri() {
   analogWrite(ENA, Speed2);
-  analogWrite(ENB, Speed);
+  analogWrite(ENB, SpeedA);
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
   digitalWrite(IN3, HIGH);
@@ -117,7 +117,7 @@ void serongKiri() {
 }
 
 void serongKanan() {
-  analogWrite(ENA, Speed);
+  analogWrite(ENA, SpeedA);
   analogWrite(ENB, Speed2);
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);

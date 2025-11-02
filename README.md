@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="cover.jpg" width="100%">
-</p>
-
   # Assalaam Robotics Eduplay 2025 x Robot Research UMS
     
   <a href="https://ibb.co.com/Kj2XXzsV"><img src="https://i.ibb.co.com/Kj2XXzsV/pamflet1.jpg" alt="pamflet1" border="0"></a>
