@@ -1,7 +1,7 @@
 
   # Assalaam Robotics Eduplay 2025 x Robot Research UMS
     
-  <a href="https://ibb.co.com/Kj2XXzsV"><img src="https://i.ibb.co.com/Kj2XXzsV/pamflet1.jpg" alt="pamflet1" border="0"></a>
+  <img src="Common Files/Pamflet.jpg" alt="" width="250">
     
   # SILAHKAN DIBACA dan DIPERHATIKAN  
   untuk mensetting robot soccer ini setelah merakit, hal yang selanjutnya dilakukan adalah mengisi program pada ESP32c3 (Mikrokontroller), ini dilakukan supaya robot dapat dikontrol menggunakan Handphone. Oleh karenanya maka penting untuk membaca dan memahami langkah langkah berikut ini secara berurutan supaya robot dapat lancar untuk dimainkan. Goodluck!  
@@ -16,7 +16,7 @@
     <img src="Common Files/BLYNK_2.png" alt="" width="600">
 3. Masuk ke Menu **Developer zone**, Lalu buat template baru dengan klik **New Template**  
     <img src="Common Files/BLYNK_3.png" alt="" width="600">
-4. Isi nama template(bebas mau diisi apa saja), Hardware diisi ESP32 dan Connection Type diisi WiFi, Lalu klik done  
+4. Isi nama template(bebas mau diisi apa saja, contoh disini saya isi BumbleBee), Hardware diisi ESP32 dan Connection Type diisi WiFi, Lalu klik done  
     <img src="Common Files/BLYNK_4.png" alt="" width="600">
 5. Copy teks bertuliskan `#define BLYNK_TEMPLATE_ID "TMPL6iBc4WRAE" #define BLYNK_TEMPLATE_NAME "BumbleBee"` seperti pada gambar, lalu simpan ke notepad  
     <img src="Common Files/BLYNK_5.png" alt="" width="600">  
@@ -50,14 +50,31 @@
     >
 11. Buka Aplikasi Blynk yang sudah terinstall di Handphone-mu, jika belum ada silahkan install di PlayStore(Android) atau AppStore(iOS).
 12. Login seperti biasa dengan akun yang sama saat login di website blynk.
-13. 
+13. Pilih template yang tadi dibuat, lalu klik tombol/ikon kunci pas di atas tampilan  
+    <img src="Common Files/HP1.jpg" alt="" width="200"> <img src="Common Files/HP2.jpg" alt="" width="200">
+14. Ketuk ikon plus (+) pada tampilan, lalu pilih button  
+    <img src="Common Files/HP3.jpg" alt="" width="200">
+15. Ketuk dan tahan ikon button yang bertuliskan OFF tersebut dan geser ke tengah  
+    <img src="Common Files/HP4.jpg" alt="" width="200"> <img src="Common Files/HP5.jpg" alt="" width="200">
+16. Ketuk tombol tersebut sehingga masuk ke settings tombol(tampilan seperti gambar dibawah), pilih bagian **choose datastream**, lalu ketuk **Create Virtual Pin Datastream**  
+    <img src="Common Files/HP6.jpg" alt="" width="200"> <img src="Common Files/HP7.jpg" alt="" width="200">
+17. Select pin Number ke **Virtual Pin Number 2** lalu kembali ke setting tombol(seperti pada gambar dibawah)  
+    <img src="Common Files/HP8.jpg" alt="" width="200"> <img src="Common Files/HP9.jpg" alt="" width="200">
+18. Kembali ke setting utama, Tambahkan tombol baru dan geser ke tempat seperti pada gambar, lalu ketuk tombol baru tersebut untuk masuk ke pengaturan tombol seperti pada gambar dibawah  
+    <img src="Common Files/HP10.jpg" alt="" width="200"> <img src="Common Files/HP11.jpg" alt="" width="200"> 
+19. Buat datastream baru dan set ke **Virtual Pin Number 3**  
+    <img src="Common Files/HP11.jpg" alt="" width="200"> <img src="Common Files/HP12.jpg" alt="" width="200">
+20. Kembali ke setting utama, tambahkan tombol baru dan ulangi langkah langkah sebelumnya hingga menjadi 4 tombol seperti ini  
+21. **Penjelasan:** V2 untuk maju, V3 untuk Mundur, V4 untuk belok/putar ke Kiri, V5 untuk belok/putar ke Kanan
+22. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya dari pengaturan
+23. Jika semua sudah selesai dan siap, Saatnya lanjut ke koding
 
 ### Siapkan Arduino IDE
 - Unduh **Arduino IDE** dari [Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
 - Jalankan file `.exe` untuk menginstalnya di laptop kamu
 
 ### Siapkan Program Utama
-1. **Unduh file utama ZIP** (tautan tersedia di bawah).  
+1. **Unduh file utama ZIP**, [klik disini untuk mendownload](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Program_Utama.zip), atau bisa download di menu Release(s) dibawah.  
 2. Ekstrak file `Program_Utama.zip`(atau `Program_Joystick.zip` jika kamu pakai itu) lalu buka foldernya.  
 3. Di dalamnya ada subfolder, buka folder tersebut dan buka file `.ino` menggunakan Arduino IDE.  
 4. Dari Arduino IDE, buka **File > Preferences (Preferensi)**.  
@@ -211,6 +228,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
