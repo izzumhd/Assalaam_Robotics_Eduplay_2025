@@ -24,17 +24,17 @@
     <img src="Common Files/BLYNK_5b.png" alt="" width="500">
 
     > catatan: Notepad adalah aplikasi windows terpisah, bisa kamu buka sendiri lewat start menu dan cari *Notepad*
-6. Masih di **Developer Zone**, Pergi ke menu **Datastream**, lalu klik **New Datastream** dan pilih **Virtual pin** (seperti pada gambar dibawah)
+6. Masih di **Developer Zone**, Pergi ke menu **Datastream**, lalu klik **New Datastream** dan pilih **Virtual pin** (seperti pada gambar dibawah)  
     <img src="Common Files/BLYNK_6.png" alt="" width="600">
-7. Set pin ke V2(seperti pada gambar), nilai Min diisi 0, nilai Max diisi 1, dan default value diisi 0. lalu klik Create
+7. Set pin ke V2(seperti pada gambar), nilai Min diisi 0, nilai Max diisi 1, dan default value diisi 0. lalu klik Create  
     <img src="Common Files/BLYNK_7.png" alt="" width="600">
 8. Pergi ke Menu **Devices**, klik **New Devices** di pojok kanan, Lalu pilih **From Template**  
     <img src="Common Files/BLYNK_8.png" alt="" width="600">
 9. Pilih Template berdasarkan nama yang kamu buat tadi, lalu klik **Create**   
     <img src="Common Files/BLYNK_9.png" alt="" width="600">
-10. Kembali ke menu **Devices**, Copy Auth Token seperti pada gambar dibawah ini ke notepad(bersama teks pada poin 5).
+10. Kembali ke menu **Devices**, Copy Auth Token seperti pada gambar dibawah ini ke notepad(bersama teks pada poin 5).  
     <img src="Common Files/BLYNK_11.png" alt="" width="600">
-    * Paste teks tersebut ke notepad, Kamu akan punya 3 baris kode seperti ini:
+    * Paste teks tersebut ke notepad, Kamu akan punya 3 baris kode seperti ini:  
     <img src="Common Files/BLYNK_11b.png" alt="" width="500">
 
     > di dalam notepad kurang lebih isinya akan seperti ini:  
@@ -46,10 +46,10 @@
     > Baris Pertama adalah template id  
     > Baris Kedua adalah template name  
     > Baris Ketiga adalah Auth token  
-    > Penting: 3 baris teks tersebut akan digunakan dalam bagian *Penulisan Kode Program*
+    > Penting: 3 baris teks tersebut akan digunakan dalam bagian *Penulisan Kode Program*  
     >
-11. Buka Aplikasi Blynk yang sudah terinstall di Handphone-mu, jika belum ada silahkan install di PlayStore(Android) atau AppStore(iOS).
-12. Login seperti biasa dengan akun yang sama saat login di website blynk.
+11. Buka Aplikasi Blynk yang sudah terinstall di Handphone-mu, jika belum ada silahkan install di PlayStore(Android) atau AppStore(iOS).  
+12. Login seperti biasa dengan akun yang sama saat login di website blynk.  
 13. Pilih template yang tadi dibuat, lalu klik tombol/ikon kunci pas di atas tampilan  
     <img src="Common Files/HP1.jpg" alt="" width="200"> <img src="Common Files/HP2.jpg" alt="" width="200">
 14. Ketuk ikon plus (+) pada tampilan, lalu pilih button  
@@ -64,10 +64,10 @@
     <img src="Common Files/HP10.jpg" alt="" width="200"> <img src="Common Files/HP11.jpg" alt="" width="200"> 
 19. Buat datastream baru dan set ke **Virtual Pin Number 3**  
     <img src="Common Files/HP11.jpg" alt="" width="200"> <img src="Common Files/HP12.jpg" alt="" width="200">
-20. Kembali ke setting utama, tambahkan tombol baru dan ulangi langkah langkah sebelumnya hingga menjadi 4 tombol seperti ini  
-21. **Penjelasan:** V2 untuk maju, V3 untuk Mundur, V4 untuk belok/putar ke Kiri, V5 untuk belok/putar ke Kanan
-22. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya dari pengaturan
-23. Jika semua sudah selesai dan siap, Saatnya lanjut ke koding
+20. Kembali ke setting utama, tambahkan tombol baru dan ulangi langkah langkah sebelumnya hingga menjadi 4 tombol seperti ini    
+21. **Penjelasan:** V2 untuk maju, V3 untuk Mundur, V4 untuk belok/putar ke Kiri, V5 untuk belok/putar ke Kanan  
+22. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya dari pengaturan  
+23. Jika semua sudah selesai dan siap, Saatnya lanjut ke koding  
 
 ### Siapkan Arduino IDE
 - Unduh **Arduino IDE** dari [Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
@@ -228,6 +228,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
