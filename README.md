@@ -20,9 +20,11 @@
     <img src="Common Files/BLYNK_4.png" alt="" width="600">
 5. Copy teks bertuliskan `#define BLYNK_TEMPLATE_ID "TMPL6iBc4WRAE" #define BLYNK_TEMPLATE_NAME "BumbleBee"` seperti pada gambar, lalu simpan ke notepad  
     <img src="Common Files/BLYNK_5.png" alt="" width="600">  
-    * Simpan sementara teks tersebut ke notepad  
-    <img src="Common Files/BLYNK_5.png" alt="" width="500">  
-6. Pergi ke menu **Datastream**, lalu klik **New Datastream** dan pilih **Virtual pin** (seperti pada gambar dibawah)
+    * Simpan sementara teks tersebut ke notepad seperti gambar di bawah ini   
+    <img src="Common Files/BLYNK_5b.png" alt="" width="500">
+
+    > catatan: Notepad adalah aplikasi windows terpisah, bisa kamu buka sendiri lewat start menu dan cari *Notepad*
+6. Masih di **Developer Zone**, Pergi ke menu **Datastream**, lalu klik **New Datastream** dan pilih **Virtual pin** (seperti pada gambar dibawah)
     <img src="Common Files/BLYNK_6.png" alt="" width="600">
 7. Set pin ke V2(seperti pada gambar), nilai Min diisi 0, nilai Max diisi 1, dan default value diisi 0. lalu klik Create
     <img src="Common Files/BLYNK_7.png" alt="" width="600">
@@ -32,14 +34,29 @@
     <img src="Common Files/BLYNK_9.png" alt="" width="600">
 10. Kembali ke menu **Devices**, Copy Auth Token seperti pada gambar dibawah ini ke notepad(bersama teks pada poin 5).
     <img src="Common Files/BLYNK_11.png" alt="" width="600">
-    * Pastekan ke notepad, Kamu akan punya 3 baris kode seperti gambar di bawah ini
-    <img src="Common Files/BLYNK_11.png" alt="" width="500">
+    * Paste teks tersebut ke notepad, Kamu akan punya 3 baris kode seperti ini:
+    <img src="Common Files/BLYNK_11b.png" alt="" width="500">
 
-### Unduh Arduino IDE
+    > di dalam notepad kurang lebih isinya akan seperti ini:  
+    > ```
+    > #define BLYNK_TEMPLATE_ID "TMPL6iBc4WRAE"
+    > #define BLYNK_TEMPLATE_NAME "BumbleBee"
+    > qSrTZTjHB0xKkP3VBRrdWi0C8EhdV3bY
+    > ```
+    > Baris Pertama adalah template id  
+    > Baris Kedua adalah template name  
+    > Baris Ketiga adalah Auth token  
+    > Penting: 3 baris teks tersebut akan digunakan dalam bagian *Penulisan Kode Program*
+    >
+11. Buka Aplikasi Blynk yang sudah terinstall di Handphone-mu, jika belum ada silahkan install di PlayStore(Android) atau AppStore(iOS).
+12. Login seperti biasa dengan akun yang sama saat login di website blynk.
+13. 
+
+### Siapkan Arduino IDE
 - Unduh **Arduino IDE** dari [Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
 - Jalankan file `.exe` untuk menginstalnya di laptop kamu
 
-### Siapkan Arduino IDE
+### Siapkan Program Utama
 1. **Unduh file utama ZIP** (tautan tersedia di bawah).  
 2. Ekstrak file `Program_Utama.zip`(atau `Program_Joystick.zip` jika kamu pakai itu) lalu buka foldernya.  
 3. Di dalamnya ada subfolder, buka folder tersebut dan buka file `.ino` menggunakan Arduino IDE.  
@@ -56,34 +73,44 @@
    (kalau belum muncul, ulangi langkah 4–6).
 
 ### Penulisan Kode Program
-10. Dapatkan `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, dan `AUTH_TOKEN` dari [Situs Blynk](https://www.blynk.io/).  
-11. Ganti dua baris pertama kode dengan template ID dan nama kamu:  
+10. Buka Notepad, Pastikan kamu sudah dapat `BLYNK_TEMPLATE_ID`, `BLYNK_TEMPLATE_NAME`, dan `AUTH_TOKEN` dari langkah bagian pertama(blynk)
+    Yang kurang lebih isinya 3 baris kode seperti ini:
+    ```
+    #define BLYNK_TEMPLATE_ID "TMPL6iBc4WRAE"
+    #define BLYNK_TEMPLATE_NAME "BumbleBee"
+    qSrTZTjHB0xKkP3VBRrdWi0C8EhdV3bY
+    ```
+12. Pada Arduino IDE, Ganti/masukkan dua baris pertama kode dengan template ID dan Template name kamu(baris ke 1&2 Notepad):  
 
     ```cpp
     #define BLYNK_TEMPLATE_ID "Masukkan TEMPLATE ID disini"
     #define BLYNK_TEMPLATE_NAME "Masukkan TEMPLATE NAME disini"
     ```
-    Setelah diubah nanti akan terlihat seperti ini:
+    Setelah diubah nanti kurang lebih akan terlihat seperti ini:
     ```cpp
-    #define BLYNK_TEMPLATE_ID "TMPL6EC4r43si"
-    #define BLYNK_TEMPLATE_NAME "AssalaamRobot"
+    #define BLYNK_TEMPLATE_ID "TMPL6iBc4WRAE"
+    #define BLYNK_TEMPLATE_NAME "BumbleBee"
     ```
 
-12. Ganti bagian `AUTH_TOKEN`:
+13. Ganti bagian `AUTH_TOKEN`:
     ```cpp
     #define AUTH_TOKEN "Paste AUTH TOKEN disini"
     ```
-    → ubah `"Paste AUTH TOKEN disini"` jadi token kamu dari **Blynk > Devices**  
+    → ubah `"Paste AUTH TOKEN disini"` ke token yang sudah kamu dapat(Baris ke 3 di Notepad),
+    Hasilnya nanti akan mirip seperti ini:
+    ```cpp
+    #define AUTH_TOKEN "qSrTZTjHB0xKkP3VBRrdWi0C8EhdV3bY"
+    ```
 
-13. Masukkan nama dan kata sandi WiFi:
+15. Masukkan nama dan kata sandi WiFi:
     ```cpp
     #define NAMA_WIFI "Masukkan NAMA WIFI disini"
     #define PASSWORD "Masukkan PASSWORD disini"
     ```
-    Gunakan hotspot HP kamu — tenang, nggak bakal ngambil kuota.  
+    Ganti dengan nama dan password hotspot HP kamu — *tenang, nggak bakal ngambil kuota.*  
 
-14. Klik tombol **✅ Compile** di kiri atas Arduino IDE.  
-15. Apabila sudah tidak ada pesan error, lanjut ke langkah berikutnya!
+16. Klik tombol **✅ Compile** di kiri atas Arduino IDE.  
+17. Apabila sudah tidak ada pesan error, lanjut ke langkah berikutnya!
 
 ### Mengunggah Program ke ESP32
 16. Hubungkan laptop ke **ESP32-C3** menggunakan kabel **Type-C**.  
@@ -184,6 +211,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
