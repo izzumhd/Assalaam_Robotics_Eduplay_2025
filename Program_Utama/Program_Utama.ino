@@ -1,9 +1,13 @@
-#define BLYNK_TEMPLATE_ID "Masukkan TEMPLATE ID disini"
-#define BLYNK_TEMPLATE_NAME "Masukkan TEMPLATE NAME disini"
+// #define BLYNK_TEMPLATE_ID "TMPL6-JZSeWFH"//"TMPL6NNpFfCQe"//"TMPL69jT0mhMG"
+// #define BLYNK_TEMPLATE_NAME "SinCin"
+// #define BLYNK_TEMPLATE_ID "TMPL6NNpFfCQe"//"TMPL6oYUITlKA"//"TMPL6CGS7XAbD"
+// #define BLYNK_TEMPLATE_NAME "fiz r balap"
+#define BLYNK_TEMPLATE_ID "TMPL6oYUITlKA"
+#define BLYNK_TEMPLATE_NAME "AZ ZUHRUF"
 
-#define AUTH_TOKEN "Paste AUTH TOKEN disini"
-#define NAMA_WIFI "Masukkan Nama Wifi Disini"
-#define PASSWORD "Masukkan Password Wifi Disini"
+#define AUTH_TOKEN "aJdln0TnlVIklfCA5iMW_WixmI0Hsp3D"//"aJdln0TnlVIklfCA5iMW_WixmI0Hsp3D"//"azLyBAQfMHptqPKDu75zEnNGip0-OlBS" //"0m6og5xt_ScBw8VRX3Ju2tztmQCugZd"
+#define NAMA_WIFI "Infinix HOT 50 Pro"
+#define PASSWORD "12345677"
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
@@ -17,7 +21,7 @@
 
 int a, b, c, d;
 int SpeedA = 255;
-int SpeedB = 200;
+int SpeedB = 255;
 int Speed2 = 200;
 
 char auth[] = AUTH_TOKEN;
