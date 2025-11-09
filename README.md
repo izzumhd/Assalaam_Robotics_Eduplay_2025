@@ -62,10 +62,10 @@
     <img src="Common Files/new/hp6.jpg" alt="" width="200"> <img src="Common Files/new/hp7.jpg" alt="" width="200"> 
 18. Kembali ke template settings lagi, Create New, Atur Virtual Pin Number ke V5 **(Virtual Pin Number 5)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Belok ke Kanan'(ikuti seperti pada gambar dibawah)  
     <img src="Common Files/new/hp8.jpg" alt="" width="200"> <img src="Common Files/new/hp9.jpg" alt="" width="200"> 
-19. Setelah membuat 4 Datastream seperti ini, lalu kembali ke settings utama  
+19. Setelah membuat 4 Datastream seperti ini, lalu kembali ke settings utama dan ketuk ikon plus ( + )  
     <img src="Common Files/new/hp10.jpg" alt="" width="200"> <img src="Common Files/new/hp11.jpg" alt="" width="200"> 
-20. Ketuk tanda plus ( + ) lalu tambahkan tombol  
-    <img src="Common Files/new/hp12.jpg" alt="" width="200"> <img src="Common Files/new/hp13.jpg" alt="" width="200"> 
+20. Pilih Button, lalu tampilannya akan menjadi seperti ini   
+    <img src="Common Files/new/hp12.jpg" alt="" width="200"> <img src="Common Files/new/hp12b.jpg" alt="" width="200"> 
 21. Ulangi langkah tersebut 4 kali untuk mendapatkan 4 tombol dan atur tata letaknya seperti ini(Ketuk dan tahan tombol untuk menggesernya)  
     <img src="Common Files/new/hp14.jpg" alt="" width="200"> <img src="Common Files/new/hp15.jpg" alt="" width="200"> 
 22. Ketuk tombol yang paling atas untuk masuk ke pengaturan tombol, Pilih Choose datastream lalu pilih `Gerak Maju[V2]`, lalu kembali ke utama
@@ -255,6 +255,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
