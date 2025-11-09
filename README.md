@@ -52,17 +52,28 @@
 12. Login seperti biasa dengan akun yang sama saat login di website blynk.  
 13. Pilih template yang tadi dibuat, lalu klik tombol/ikon kunci pas di atas tampilan  
     <img src="Common Files/HP1.jpg" alt="" width="200"> <img src="Common Files/HP2.jpg" alt="" width="200">
-14. Ketuk ikon seperti yang ditunjuk pada gambar dibawah ini dan pilih Create Virtual Pin Datastream  
-15. Atur Virtual Pin Number ke V2 **(Virtual Pin Number 2)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Gerak Maju'(ikuti seperti pada gambar dibawah)
-16. Kembali ke template settings, pilih Create New lagi, Atur Virtual Pin Number ke V3 **(Virtual Pin Number 3)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Gerak Mundur'(ikuti seperti pada gambar dibawah)  
+14. Ketuk ikon seperti yang ditunjuk pada gambar dibawah ini lalu pilih Create Virtual Pin Datastream  
+    <img src="Common Files/new/hp1.jpg" alt="" width="200"> <img src="Common Files/new/hp2.jpg" alt="" width="200"> 
+15. Atur Virtual Pin Number ke V2 **(Virtual Pin Number 2)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Gerak Maju'(ikuti seperti pada gambar dibawah)  
+    <img src="Common Files/new/hp3.jpg" alt="" width="200"> <img src="Common Files/HP8.jpg" alt="" width="200"> 
+16. Kembali ke template settings, pilih Create New, Atur Virtual Pin Number ke V3 **(Virtual Pin Number 3)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Gerak Mundur'(ikuti seperti pada gambar dibawah)  
+    <img src="Common Files/new/hp4.jpg" alt="" width="200"> <img src="Common Files/new/hp5.jpg" alt="" width="200"> 
 17. Kembali lagi ke template settings, Create New lagi, Atur Virtual Pin Number ke V4 **(Virtual Pin Number 4)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Belok ke Kiri'(ikuti seperti pada gambar dibawah)  
+    <img src="Common Files/new/hp6.jpg" alt="" width="200"> <img src="Common Files/new/hp7.jpg" alt="" width="200"> 
 18. Kembali ke template settings lagi, Create New, Atur Virtual Pin Number ke V5 **(Virtual Pin Number 5)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Belok ke Kanan'(ikuti seperti pada gambar dibawah)  
+    <img src="Common Files/new/hp8.jpg" alt="" width="200"> <img src="Common Files/new/hp9.jpg" alt="" width="200"> 
 19. Setelah membuat 4 Datastream seperti ini, lalu kembali ke settings utama  
+    <img src="Common Files/new/hp10.jpg" alt="" width="200"> <img src="Common Files/new/hp11.jpg" alt="" width="200"> 
 20. Ketuk tanda plus ( + ) lalu tambahkan tombol  
+    <img src="Common Files/new/hp12.jpg" alt="" width="200"> <img src="Common Files/new/hp13.jpg" alt="" width="200"> 
 21. Ulangi langkah tersebut 4 kali untuk mendapatkan 4 tombol dan atur tata letaknya seperti ini(Ketuk dan tahan tombol untuk menggesernya)  
+    <img src="Common Files/new/hp14.jpg" alt="" width="200"> <img src="Common Files/new/hp15.jpg" alt="" width="200"> 
 22. Ketuk tombol yang paling atas untuk masuk ke pengaturan tombol, Pilih Choose datastream lalu pilih `Gerak Maju[V2]`, lalu kembali ke utama
+    <img src="Common Files/new/hp16.jpg" alt="" width="200"> <img src="Common Files/new/hp17.jpg" alt="" width="200"> 
 23. Ulangi langkah tersebut pada tombol lainnya dengan memasangkan sisanya ke Gerak Mundur, Belok ke Kiri, dan Belok ke Kanan, menjadi seperti ini
+    <img src="Common Files/new/hp1.jpg" alt="" width="200"> <img src="Common Files/new/hp1.jpg" alt="" width="200"> 
 24. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya dari pengaturan  
+    <img src="Common Files/new/hp1.jpg" alt="" width="200"> <img src="Common Files/new/hp1.jpg" alt="" width="200"> 
 23. Jika semua sudah selesai dan siap, Saatnya lanjut ke koding  
 
 
@@ -244,6 +255,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
