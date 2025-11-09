@@ -68,11 +68,11 @@
     <img src="Common Files/new/hp12.jpg" alt="" width="200"> <img src="Common Files/new/hp12b.jpg" alt="" width="200"> 
 21. Ulangi langkah tersebut 4 kali untuk mendapatkan 4 tombol dan atur tata letaknya seperti ini(Ketuk dan tahan tombol untuk menggesernya)  
     <img src="Common Files/new/hp13.jpg" alt="" width="200"> <img src="Common Files/new/hp14.jpg" alt="" width="200"> 
-22. Ketuk tombol yang paling atas untuk masuk ke pengaturan tombol, Pilih Choose datastream lalu pilih `Gerak Maju[V2]`, lalu kembali ke utama  
+22. Ketuk tombol yang paling atas untuk masuk ke pengaturan tombol, Pilih Choose datastream lalu pilih `Gerak Maju[V2]`, lalu kembali ke utama     
     <img src="Common Files/new/hp15.jpg" alt="" width="200"> <img src="Common Files/new/hp16.jpg" alt="" width="200"> 
-23. Ulangi langkah tersebut pada tombol lainnya dengan memasangkan sisanya ke Gerak Mundur, Belok ke Kiri, dan Belok ke Kanan, menjadi seperti seperti gambar ke-2  
+24. Ulangi langkah tersebut pada tombol lainnya dengan memasangkan sisanya ke Gerak Mundur, Belok ke Kiri, dan Belok ke Kanan, menjadi seperti seperti gambar ke-2  
     <img src="Common Files/new/hp17.jpg" alt="" width="200"> <img src="Common Files/new/hp17b.jpg" alt="" width="200"> 
-24. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya dari pengaturan   
+25. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya menjadi seperti ini   
     <img src="Common Files/new/hp18.jpg" alt="" width="500"> 
 23. Jika semua sudah selesai dan siap, Saatnya lanjut ke tahap berikutnya.  
 
@@ -235,6 +235,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
