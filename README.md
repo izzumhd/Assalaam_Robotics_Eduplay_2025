@@ -7,6 +7,18 @@
   untuk mensetting robot soccer ini setelah merakit, hal yang selanjutnya dilakukan adalah mengisi program pada ESP32c3 (Mikrokontroller), ini dilakukan supaya robot dapat dikontrol menggunakan Handphone. Oleh karenanya maka penting untuk membaca dan memahami langkah langkah berikut ini secara berurutan supaya robot dapat lancar untuk dimainkan. Goodluck!  
 
 ---
+
+## Daftar isi
+* [Petunjuk Untuk Memulai](#Petunjuk untuk Memulai)
+  - [Siapkan BLYNK](#Siapkan BLYNK)
+  - [Siapkan Arduino IDE]()
+  - [Siapkan Program Utama]()
+  - [Penulisan Kode Program(Coding)]()
+  - [Upload program ke ESP32]()
+  - [Catatan Tambahan]()
+* [Getting Started(English)]()
+
+
 ## Petunjuk untuk Memulai
 
 ### Siapkan BLYNK
@@ -136,7 +148,7 @@
 16. Klik tombol **✅ Compile** di kiri atas Arduino IDE.  
 17. Apabila sudah tidak ada pesan error, lanjut ke langkah berikutnya!
 
-### Mengunggah Program ke ESP32
+### Upload Program ke ESP32
 16. Hubungkan laptop ke **ESP32-C3** menggunakan kabel **Type-C**.  
 17. Buka **Tools > Port**, lalu pilih port COM yang sesuai  
     *(biasanya tertulis seperti: `COMx (ESP32 Family Device)`)*  
@@ -235,6 +247,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
