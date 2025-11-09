@@ -93,9 +93,11 @@
     <img src="Common Files/new/hp15.jpg" alt="" width="200"> <img src="Common Files/new/hp16.jpg" alt="" width="200"> 
 24. Ulangi langkah tersebut pada tombol lainnya dengan memasangkan sisanya ke Gerak Mundur, Belok ke Kiri, dan Belok ke Kanan, menjadi seperti seperti gambar ke-2  
     <img src="Common Files/new/hp17.jpg" alt="" width="200"> <img src="Common Files/new/hp17b.jpg" alt="" width="200"> 
-25. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya menjadi seperti ini   
-    <img src="Common Files/new/hp18.jpg" alt="" width="500"> 
-23. Jika semua sudah selesai dan siap, Saatnya lanjut ke tahap berikutnya.  
+25. (Opsional) Kamu bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti video game, cukup tukar saja posisi tombolnya menjadi seperti ini   
+    <img src="Common Files/new/hp18.jpg" alt="" width="500">  
+26. (Opsional) Jika ingin mengubah desain tombol menjadi seperti ini juga bisa(ubah pada menu **Design**)
+    <img src="Common Files/new/hp19.jpg" alt="" width="500">
+27. Jika semua sudah selesai dan siap, Saatnya lanjut ke tahap berikutnya.  
 
 ### Siapkan Arduino IDE
 - Unduh **Arduino IDE** dari [Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
@@ -257,6 +259,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
