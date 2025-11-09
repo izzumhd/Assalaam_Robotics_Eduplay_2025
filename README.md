@@ -16,7 +16,6 @@
   - [Siapkan Program Utama](#Siapkan-Program-Utama)
   - [Penulisan Kode Program(Coding)](#Penulisan-Kode-Program)
   - [Upload program ke ESP32](#Upload-Program-ke-ESP32)
-  - [Catatan Tambahan](#Catatan-Tambahan:)
 * [Getting Started(English)](#Getting-Started(English))
 * [Download Release(s)](#Download-Release(s))
 * [Library](#Library)
@@ -252,6 +251,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
