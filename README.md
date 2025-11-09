@@ -1,10 +1,11 @@
 
   # Assalaam Robotics Eduplay 2025 x Robot Research UMS
+  ## Tutorial & Panduan mengenai Robot Soccer
     
   <img src="Common Files/Pamflet.jpg" alt="" width="250">
     
   # SILAHKAN DIBACA dan DIPERHATIKAN  
-  untuk mensetting robot soccer ini setelah merakit, hal yang selanjutnya dilakukan adalah mengisi program pada ESP32c3 (Mikrokontroller), ini dilakukan supaya robot dapat dikontrol menggunakan Handphone. Oleh karenanya maka penting untuk membaca dan memahami langkah langkah berikut ini secara berurutan supaya robot dapat lancar untuk dimainkan. Goodluck!  
+  Setelah melakukan perakitan, Untuk mensetting robot soccer ini hal yang selanjutnya dilakukan adalah mengisi program pada ESP32c3 (Mikrokontroller), ini dilakukan supaya robot dapat dikontrol menggunakan Handphone. Oleh karenanya maka penting untuk membaca dan memahami langkah langkah berikut ini secara berurutan supaya robot dapat lancar untuk dimainkan. Goodluck!  
 
 ---
 
@@ -15,9 +16,13 @@
   - [Siapkan Program Utama](#Siapkan-Program-Utama)
   - [Penulisan Kode Program(Coding)](#Penulisan-Kode-Program)
   - [Upload program ke ESP32](#Upload-Program-ke-ESP32)
-  - [Catatan Tambahan](#Catatan-Tambahan)
-* [Getting Started(English)]()
+  - [Catatan Tambahan](#Catatan-Tambahan:)
+* [Getting Started(English)](#Getting-Started(English))
+* [Download Release(s)](#Download-Release(s))
+* [Library](#Library)
+* [About File](#About-File)
 
+---
 
 ## Petunjuk untuk Memulai
 
@@ -239,7 +244,7 @@
   library blynk download dari arduino ide :)  
   atau jika ingin [install manual disini](https://github.com/blynkkk/blynk-library/releases/tag/v1.3.2)
   
-  ## About
+  ## About File
   | **Nama file** | **Keterangan** |
   |:----------|:-----------|
   | `Program_Utama` | Program utama dasar dengan button sebagai kontrol utama |
@@ -247,6 +252,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
