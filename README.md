@@ -243,9 +243,9 @@
 
   ## Download Releases
   * [Program_Utama.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Program_Utama.zip)  
-  * [Program_Joystick.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Program_Joystick.zip)
-  * [Modul Pembelajaran (pdf)](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Modul_RobotSoccer.pdf)
-  
+  * [Program_Joystick.zip](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Program_Joystick.zip)  
+  * [Modul Pembelajaran (pdf)](https://github.com/izzumhd/Assalaam_Robotics_Eduplay_2025/releases/download/v1.0.1/Modul_RobotSoccer.pdf)  
+    
   ## Library
   library blynk download dari arduino ide :)  
   atau jika ingin [install manual disini](https://github.com/blynkkk/blynk-library/releases/tag/v1.3.2)
@@ -256,9 +256,10 @@
   | `Program_Utama` | Program utama dasar dengan button sebagai kontrol utama |
   | `Program_Joystick` | Program dengan joystick sebagai kontrol utama(optional) |
   | `Common File` | Berisi Gambar tutorial |
-
+     
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
