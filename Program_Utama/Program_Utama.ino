@@ -1,13 +1,9 @@
-// #define BLYNK_TEMPLATE_ID "TMPL6-JZSeWFH"//"TMPL6NNpFfCQe"//"TMPL69jT0mhMG"
-// #define BLYNK_TEMPLATE_NAME "SinCin"
-// #define BLYNK_TEMPLATE_ID "TMPL6NNpFfCQe"//"TMPL6oYUITlKA"//"TMPL6CGS7XAbD"
-// #define BLYNK_TEMPLATE_NAME "fiz r balap"
-#define BLYNK_TEMPLATE_ID "TMPL6oYUITlKA"
-#define BLYNK_TEMPLATE_NAME "AZ ZUHRUF"
+#define BLYNK_TEMPLATE_ID "Masukkan TEMPLATE ID disini"
+#define BLYNK_TEMPLATE_NAME "Masukkan TEMPLATE NAME disini"
 
-#define AUTH_TOKEN "aJdln0TnlVIklfCA5iMW_WixmI0Hsp3D"//"aJdln0TnlVIklfCA5iMW_WixmI0Hsp3D"//"azLyBAQfMHptqPKDu75zEnNGip0-OlBS" //"0m6og5xt_ScBw8VRX3Ju2tztmQCugZd"
-#define NAMA_WIFI "Infinix HOT 50 Pro"
-#define PASSWORD "12345677"
+#define AUTH_TOKEN "Paste AUTH TOKEN disini"
+#define NAMA_WIFI "Masukkan NAMA WIFI disini"
+#define PASSWORD "Masukkan PASSWORD disini"
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
