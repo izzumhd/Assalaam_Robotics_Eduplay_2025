@@ -9,13 +9,13 @@
 ---
 
 ## Daftar isi
-* [Petunjuk Untuk Memulai](#Petunjuk untuk Memulai)
-  - [Siapkan BLYNK](#Siapkan BLYNK)
-  - [Siapkan Arduino IDE]()
-  - [Siapkan Program Utama]()
-  - [Penulisan Kode Program(Coding)]()
-  - [Upload program ke ESP32]()
-  - [Catatan Tambahan]()
+* [Petunjuk Untuk Memulai](#Petunjuk-untuk-Memulai)
+  - [Siapkan BLYNK](#Siapkan-BLYNK)
+  - [Siapkan Arduino IDE](#Siapkan-Arduino-IDE)
+  - [Siapkan Program Utama](#Siapkan-Program-Utama)
+  - [Penulisan Kode Program(Coding)](#Penulisan-Kode-Program)
+  - [Upload program ke ESP32](#Upload-Program-ke-ESP32)
+  - [Catatan Tambahan](#Catatan-Tambahan)
 * [Getting Started(English)]()
 
 
@@ -247,6 +247,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
