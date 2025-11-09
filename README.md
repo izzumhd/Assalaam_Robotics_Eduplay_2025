@@ -31,7 +31,7 @@
     > **Note:** Jika belum pernah melakukan login, Maka klik Create New Account lalu masukkan akun google kalian.  
     > Setelah itu cek Gmail, nantinya kamu akan dapat email seperti ini:  
     > <img src="Common Files/BLYNK_1b.png" alt="" width="400">  
-    > buka email itu dan click **Complete Setup**
+    > buka email itu dan click **Complete Setup**  
     > <img src="Common Files/BLYNK_1c.png" alt="" width="400">  
 2. Setelah berhasil login, maka tampilannya akan seperti ini  
     <img src="Common Files/BLYNK_2.png" alt="" width="600">
@@ -257,6 +257,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
