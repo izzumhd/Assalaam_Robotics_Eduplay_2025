@@ -1,9 +1,9 @@
 
   # Assalaam Robotics Eduplay 2025 x Robot Research UMS
-  ## Tutorial & Panduan mengenai Robot Soccer
     
   <img src="Common Files/Pamflet.jpg" alt="" width="250">
     
+  ## Tutorial & Panduan mengenai Robot Soccer
   # SILAHKAN DIBACA dan DIPERHATIKAN  
   Setelah melakukan perakitan, Untuk mensetting robot soccer ini hal yang selanjutnya dilakukan adalah mengisi program pada ESP32c3 (Mikrokontroller), ini dilakukan supaya robot dapat dikontrol menggunakan Handphone. Oleh karenanya maka penting untuk membaca dan memahami langkah langkah berikut ini secara berurutan supaya robot dapat lancar untuk dimainkan. Goodluck!  
 
@@ -259,6 +259,7 @@
      
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
