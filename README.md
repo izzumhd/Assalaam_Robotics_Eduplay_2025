@@ -52,7 +52,7 @@
 12. Login seperti biasa dengan akun yang sama saat login di website blynk.  
 13. Pilih template yang tadi dibuat, lalu klik tombol/ikon kunci pas di atas tampilan  
     <img src="Common Files/HP1.jpg" alt="" width="200"> <img src="Common Files/HP2.jpg" alt="" width="200">
-14. Ketuk ikon seperti yang ditunjuk pada gambar dibawah ini dan pilih Create Virtual Pin Datastream
+14. Ketuk ikon seperti yang ditunjuk pada gambar dibawah ini dan pilih Create Virtual Pin Datastream  
 15. Atur Virtual Pin Number ke V2 **(Virtual Pin Number 2)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Gerak Maju'(ikuti seperti pada gambar dibawah)
 16. Kembali ke template settings, pilih Create New lagi, Atur Virtual Pin Number ke V3 **(Virtual Pin Number 3)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Gerak Mundur'(ikuti seperti pada gambar dibawah)  
 17. Kembali lagi ke template settings, Create New lagi, Atur Virtual Pin Number ke V4 **(Virtual Pin Number 4)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Belok ke Kiri'(ikuti seperti pada gambar dibawah)  
@@ -244,6 +244,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
