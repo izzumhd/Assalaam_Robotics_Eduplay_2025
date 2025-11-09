@@ -52,17 +52,33 @@
 12. Login seperti biasa dengan akun yang sama saat login di website blynk.  
 13. Pilih template yang tadi dibuat, lalu klik tombol/ikon kunci pas di atas tampilan  
     <img src="Common Files/HP1.jpg" alt="" width="200"> <img src="Common Files/HP2.jpg" alt="" width="200">
+14. Ketuk ikon seperti yang ditunjuk pada gambar dibawah ini dan pilih Create Virtual Pin Datastream
+15. Atur Virtual Pin Number ke V2 **(Virtual Pin Number 2)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Gerak Maju'(ikuti seperti pada gambar dibawah)
+16. Kembali ke template settings, pilih Create New lagi, Atur Virtual Pin Number ke V3 **(Virtual Pin Number 3)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Gerak Mundur'(ikuti seperti pada gambar dibawah)  
+17. Kembali lagi ke template settings, Create New lagi, Atur Virtual Pin Number ke V4 **(Virtual Pin Number 4)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Belok ke Kiri'(ikuti seperti pada gambar dibawah)  
+18. Kembali ke template settings lagi, Create New, Atur Virtual Pin Number ke V5 **(Virtual Pin Number 5)**, Data type Integer, Min 0, Max 1, Default Value 0, dan kasih Nama 'Belok ke Kanan'(ikuti seperti pada gambar dibawah)  
+19. Setelah membuat 4 Datastream seperti ini, lalu kembali ke settings utama  
+20. Ketuk tanda plus ( + ) lalu tambahkan tombol  
+21. Ulangi langkah tersebut 4 kali untuk mendapatkan 4 tombol dan atur tata letaknya seperti ini(Ketuk dan tahan tombol untuk menggesernya)  
+22. Ketuk tombol yang paling atas untuk masuk ke pengaturan tombol, Pilih Choose datastream lalu pilih `Gerak Maju[V2]`, lalu kembali ke utama
+23. Ulangi langkah tersebut pada tombol lainnya dengan memasangkan sisanya ke Gerak Mundur, Belok ke Kiri, dan Belok ke Kanan, menjadi seperti ini
+24. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya dari pengaturan  
+23. Jika semua sudah selesai dan siap, Saatnya lanjut ke koding  
+
+
+
+
 14. Ketuk ikon plus (+) pada tampilan, lalu pilih button  
     <img src="Common Files/HP3.jpg" alt="" width="200">
 15. Ketuk dan tahan ikon button yang bertuliskan OFF tersebut dan geser ke tengah  
     <img src="Common Files/HP4.jpg" alt="" width="200"> <img src="Common Files/HP5.jpg" alt="" width="200">
 16. Ketuk tombol tersebut sehingga masuk ke settings tombol(tampilan seperti gambar dibawah), pilih bagian **choose datastream**, lalu ketuk **Create Virtual Pin Datastream**  
     <img src="Common Files/HP6.jpg" alt="" width="200"> <img src="Common Files/HP7.jpg" alt="" width="200">
-17. Select pin Number ke **Virtual Pin Number 2** lalu kembali ke setting tombol(seperti pada gambar dibawah)  
+17. Set Virtual Pin Number ke **Virtual Pin Number 2**, Data type Integer, Min 0, Max 1, Default Value 0, Nama diisi **Maju**(ikuti seperti pada gambar dibawah)
     <img src="Common Files/HP8.jpg" alt="" width="200"> <img src="Common Files/HP9.jpg" alt="" width="200">
 18. Kembali ke setting utama, Tambahkan tombol baru dan geser ke tempat seperti pada gambar, lalu ketuk tombol baru tersebut untuk masuk ke pengaturan tombol seperti pada gambar dibawah  
     <img src="Common Files/HP10.jpg" alt="" width="200"> <img src="Common Files/HP11.jpg" alt="" width="200"> 
-19. Buat datastream baru dan set ke **Virtual Pin Number 3**  
+19. Buat datastream baru, set Virtual Pin Number ke **Virtual Pin Number 3**, Data type Integer, Min 0, Max 1, Default Value 0, Nama diisi **Mundur**(ikuti seperti pada gambar dibawah)
     <img src="Common Files/HP11.jpg" alt="" width="200"> <img src="Common Files/HP12.jpg" alt="" width="200">
 20. Kembali ke setting utama, tambahkan tombol baru dan ulangi langkah langkah sebelumnya hingga menjadi 4 tombol seperti ini    
 21. **Penjelasan:** V2 untuk maju, V3 untuk Mundur, V4 untuk belok/putar ke Kiri, V5 untuk belok/putar ke Kanan  
@@ -228,6 +244,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
