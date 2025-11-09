@@ -67,34 +67,14 @@
 20. Pilih Button, lalu tampilannya akan menjadi seperti ini   
     <img src="Common Files/new/hp12.jpg" alt="" width="200"> <img src="Common Files/new/hp12b.jpg" alt="" width="200"> 
 21. Ulangi langkah tersebut 4 kali untuk mendapatkan 4 tombol dan atur tata letaknya seperti ini(Ketuk dan tahan tombol untuk menggesernya)  
-    <img src="Common Files/new/hp14.jpg" alt="" width="200"> <img src="Common Files/new/hp15.jpg" alt="" width="200"> 
-22. Ketuk tombol yang paling atas untuk masuk ke pengaturan tombol, Pilih Choose datastream lalu pilih `Gerak Maju[V2]`, lalu kembali ke utama
-    <img src="Common Files/new/hp16.jpg" alt="" width="200"> <img src="Common Files/new/hp17.jpg" alt="" width="200"> 
-23. Ulangi langkah tersebut pada tombol lainnya dengan memasangkan sisanya ke Gerak Mundur, Belok ke Kiri, dan Belok ke Kanan, menjadi seperti ini
-    <img src="Common Files/new/hp1.jpg" alt="" width="200"> <img src="Common Files/new/hp1.jpg" alt="" width="200"> 
-24. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya dari pengaturan  
-    <img src="Common Files/new/hp1.jpg" alt="" width="200"> <img src="Common Files/new/hp1.jpg" alt="" width="200"> 
-23. Jika semua sudah selesai dan siap, Saatnya lanjut ke koding  
-
-
-
-
-14. Ketuk ikon plus (+) pada tampilan, lalu pilih button  
-    <img src="Common Files/HP3.jpg" alt="" width="200">
-15. Ketuk dan tahan ikon button yang bertuliskan OFF tersebut dan geser ke tengah  
-    <img src="Common Files/HP4.jpg" alt="" width="200"> <img src="Common Files/HP5.jpg" alt="" width="200">
-16. Ketuk tombol tersebut sehingga masuk ke settings tombol(tampilan seperti gambar dibawah), pilih bagian **choose datastream**, lalu ketuk **Create Virtual Pin Datastream**  
-    <img src="Common Files/HP6.jpg" alt="" width="200"> <img src="Common Files/HP7.jpg" alt="" width="200">
-17. Set Virtual Pin Number ke **Virtual Pin Number 2**, Data type Integer, Min 0, Max 1, Default Value 0, Nama diisi **Maju**(ikuti seperti pada gambar dibawah)
-    <img src="Common Files/HP8.jpg" alt="" width="200"> <img src="Common Files/HP9.jpg" alt="" width="200">
-18. Kembali ke setting utama, Tambahkan tombol baru dan geser ke tempat seperti pada gambar, lalu ketuk tombol baru tersebut untuk masuk ke pengaturan tombol seperti pada gambar dibawah  
-    <img src="Common Files/HP10.jpg" alt="" width="200"> <img src="Common Files/HP11.jpg" alt="" width="200"> 
-19. Buat datastream baru, set Virtual Pin Number ke **Virtual Pin Number 3**, Data type Integer, Min 0, Max 1, Default Value 0, Nama diisi **Mundur**(ikuti seperti pada gambar dibawah)
-    <img src="Common Files/HP11.jpg" alt="" width="200"> <img src="Common Files/HP12.jpg" alt="" width="200">
-20. Kembali ke setting utama, tambahkan tombol baru dan ulangi langkah langkah sebelumnya hingga menjadi 4 tombol seperti ini    
-21. **Penjelasan:** V2 untuk maju, V3 untuk Mundur, V4 untuk belok/putar ke Kiri, V5 untuk belok/putar ke Kanan  
-22. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya dari pengaturan  
-23. Jika semua sudah selesai dan siap, Saatnya lanjut ke koding  
+    <img src="Common Files/new/hp13.jpg" alt="" width="200"> <img src="Common Files/new/hp14.jpg" alt="" width="200"> 
+22. Ketuk tombol yang paling atas untuk masuk ke pengaturan tombol, Pilih Choose datastream lalu pilih `Gerak Maju[V2]`, lalu kembali ke utama  
+    <img src="Common Files/new/hp15.jpg" alt="" width="200"> <img src="Common Files/new/hp16.jpg" alt="" width="200"> 
+23. Ulangi langkah tersebut pada tombol lainnya dengan memasangkan sisanya ke Gerak Mundur, Belok ke Kiri, dan Belok ke Kanan, menjadi seperti seperti gambar ke-2  
+    <img src="Common Files/new/hp17.jpg" alt="" width="200"> <img src="Common Files/new/hp17b.jpg" alt="" width="200"> 
+24. Kamu juga bisa mengubah tampilan menjadi Landscape(HP miring) jika ingin sensasi kontrol seperti game, cukup tukar saja posisi tombolnya dari pengaturan   
+    <img src="Common Files/new/hp18.jpg" alt="" width="500"> 
+23. Jika semua sudah selesai dan siap, Saatnya lanjut ke tahap berikutnya.  
 
 ### Siapkan Arduino IDE
 - Unduh **Arduino IDE** dari [Situs Resmi Arduino](https://downloads.arduino.cc/arduino-ide/arduino-ide_2.3.6_Windows_64bit.exe)  
@@ -255,6 +235,7 @@
 
   *October 30th, 2025. Regards*  
   *izzumhdh*
+
 
 
 
