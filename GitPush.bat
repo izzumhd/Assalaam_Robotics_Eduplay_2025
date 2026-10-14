@@ -3,7 +3,7 @@ echo ===============================
 echo   Update dan Push ke GitHub 
 echo ===============================
 
-cd /d "D:\P codeng\GitHub\Assalaam_Robotics_Eduplay_smp"
+cd /d "D:\Frog\GitHub\Assalaam_Robotics_Eduplay_smp"
 
 echo  Menarik update dari GitHub dulu...
 git pull origin main
